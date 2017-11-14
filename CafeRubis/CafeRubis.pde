@@ -60,13 +60,13 @@ void displayProducts()
    textSize(16);
    int x3 = 33;
    int y3 = 75;
-   text("Americano                 2.50 ", x3, y3);
-   text("Cappuchino               2.80 ", x3, y3 + 65);
-   text("Latte                        2.80 ", x3, y3 + 130);
-   text(" Roibois Tea              2.90 ", x3, y3 + 185);
-   text("Lemon & ginger tea  2.90 ", x3, y3 + 240);
-   text("Chardonnay               6.50 ", x3, y3 + 300);
-   text("Prosecco                   7.20 ", x3, y3 + 360);
+   text("                                    Americano                 2.50 ", x3, y3);
+   text("                                      Cappuchino               2.80 ", x3, y3 + 65);
+   text("                                      Latte                        2.80 ", x3, y3 + 130);
+   text("                                     Roibois Tea              2.90 ", x3, y3 + 185);
+   text("                                      Lemon & ginger tea  2.90 ", x3, y3 + 240);
+   text("                                    Chardonnay               6.50 ", x3, y3 + 300);
+   text("                                      Prosecco                   7.20 ", x3, y3 + 360);
   
    
    
@@ -79,8 +79,13 @@ void displayBill()
   float y2r2 = 40;
   
   fill(255);
-  
   rect(x2r2, y2r2, 350, 520);
+  
+  fill(0);
+  textSize(16);
+  textAlign(CENTER);
+  text("Your Bill", 600 , 60);  
+  
   
 }
 
