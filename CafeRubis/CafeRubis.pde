@@ -89,6 +89,11 @@ void displayBill()
   
 }
 
+void mousePressed()
+{
+    
+}
+
 
 void draw()
 {
